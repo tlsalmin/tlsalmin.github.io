@@ -1,0 +1,15 @@
+name: Tomi Salminen
+
+description: File descriptor enthusiast.
+
+markdown: kramdown
+
+url: https://tlsalmin.github.io
+exclude:
+  - LICENSE
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
