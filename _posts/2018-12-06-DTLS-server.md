@@ -141,7 +141,7 @@ rest of the handshake. The plan boils down to the steps:
 5. Replace the client SSL fd with the newly created fd.
 
 ```c
-nt new_peer(int main_fd, SSL *ssl)
+int new_peer(int main_fd, SSL *ssl)
 {
   char buf[BUFSIZ];
   struct sockaddr_storage peer, bound_to;
